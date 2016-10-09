@@ -1,4 +1,19 @@
 {
-    "name": "build-your-own-angularjs",
-    "version": "0.1"
+  "name": "build-your-own-angularjs",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-testem": "^0.5.22",
+    "gulp-jasmine-livereload-task": "^0.10.0",
+    "jasmine": "^2.5.2",
+    "sinon": "^1.17.6"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.4"
+  }
 }
